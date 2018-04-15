@@ -26,6 +26,7 @@ body {
 	--color-link-hover: #fff473;
 	--color-nav: #fff;
 	--color-bg-slide-2: #0406e6;
+	--color-bg-slide-2-opacity: rgb(4,6,230, 0.8);
 }
 
 a {
@@ -38,6 +39,10 @@ a:hover,
 a:focus {
 	color: var(--color-link-hover);
 	outline: none;
+}
+
+iframe {
+	display: inline-block;
 }
 
 /* Icons */
@@ -138,21 +143,24 @@ main {
 	position: relative;
 	display: flex;
 	width: 100vw;
-	height: 100vh;
+	min-height: 100vh;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
 	flex-direction: column;
 }
 
 .inner {
 	max-width: 70vw;
 	padding: 10vh 0;
+	z-index: 2;
 }
 
 .icon--arrow {
 	fill: white;
 	z-index: 99999;
 	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
 	position: absolute;
 	bottom: 30px;
 	left: 50%;
@@ -217,6 +225,15 @@ h3 {
 	position: relative;
 	display: flex;
 	pointer-events: none;
+	background-image: url('../img/speaking.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.contact {
+	background-image: url('../img/jsconf.jpg');
+	background-attachment: fixed;
+	background-size: cover;
 }
 
 .slide {
@@ -246,7 +263,7 @@ h3 {
 }
 
 .slide__bg--2 {
-	background: var(--color-bg-slide-2);
+	background-color: var(--color-bg-slide-2-opacity);
 }
 
 /* Word + SVG styles */
