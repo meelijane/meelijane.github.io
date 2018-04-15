@@ -44,7 +44,7 @@ body {
 	--color-link-hover: #fff473;
 	--color-nav: #fff;
 	--color-bg-slide-2: #0406e6;
-	--color-bg-slide-2-opacity: rgb(4,6,230, 0.8);
+	--color-bg-slide-2-opacity: rgba(4, 6, 230, 0.8);
 }
 
 a {
@@ -163,6 +163,11 @@ main {
 }
 
 /* Info */
+
+section {
+ -vendor-animation-delay: 0.4s;
+}
+
 .useful {
 	position: relative;
 	display: flex;
@@ -287,7 +292,7 @@ h3 {
 }
 
 .slide__bg--2 {
-	background-color: var(--color-bg-slide-2-opacity);
+	background-color: rgba(4, 6, 230, 0.8);
 }
 
 /* Word + SVG styles */
