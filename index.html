@@ -10,7 +10,21 @@
 		<meta name="author" content="Milly Schmidt" />
 		<link rel="shortcut icon" href="favicon.ico">
 		<link rel="stylesheet" type="text/css" href="css/base.css" />
-		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<script>document.documentElement.className="js";var supportsCssVars=function(){var e,t=document.createElement("style");return t.innerHTML="root: { --tmp-var: bold; }",document.head.appendChild(t),e=!!(window.CSS&&window.CSS.supports&&window.CSS.supports("font-weight","var(--tmp-var)")),t.parentNode.removeChild(t),e};supportsCssVars()||alert("Please view this demo in a modern browser that supports CSS Variables.");
+		</script>
+
+		<script src="js/wow.min.js"></script>
+		<script src="js/smooth-scroll.min.js"></script>
+		<script src="js/smooth-scroll.polyfills.min.js"></script>
+
+    <script>
+      new WOW().init();
+    </script>
+		<script>
+			var scroll = new SmoothScroll('a[href*="#"]');
+		</script>
+
 	</head>
 
 	<body class="demo-1">
@@ -27,7 +41,7 @@
 		</svg>
 
 			<!-- Meta info & github link -->
-			<header class="header content content--fixed">
+			<header class="wow fadeInDown header content content--fixed">
 				<a class="github" href="https://github.com/meelijane/" title="View my github"><svg class="icon icon--github"><use xlink:href="#icon-github"></use></svg></a>
 				<h1 class="header__title">Milly Schmidt | UX designer, front-end developer, writer, teacher, speaker</h1>
 			</header>
@@ -35,53 +49,80 @@
 			<main class="content">
 
 				<!-- Splash -->
-				<section class="slideshow">
+				<section class="slideshow wow fadeIn">
 					<div class="slide slide--current">
 						<div class="slide__bg slide__bg--2"></div>
 						<h2 class="word word--2">Hi! I'm Milly.</h2>
+						<a href="#two"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
 					</div>
 				</section>
 
 				<!-- Actually useful stuff -->
-				<section class="useful information">
-					<div class="inner">
-						<h2>Nice to meet you.</h2>
+				<section id="two" class="useful information">
+					<div class="inner wow fadeIn">
+						<h2>Nice to meet you. 🤝</h2>
 						<p class="intro">I help growing product companies (like yours?) plan for the future using design thinking, systems thinking and Lean methodologies.</p>
 						<p class="intro">Also, I teach, speak and write.</p>
 						<p class="intro">Sometimes, I write code (I made this website, for example).</p>
+						<p class="intro">I'm based in Melbourne, Australia.</p>
 					</div>
+						<a href="#three"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
 				</section>
 
 				<!-- Current work -->
-				<section class="useful work">
-					<div class="inner">
-						<h2>What I'm working on</h2>
-						<p>Head of Design at EstimateOne</p>
-						<p>Research & Facilitation at Code Like a Girl</p>
-						<p>Content Strategy for ItStrategic</p>
+				<section id="three" class="useful work">
+					<div class="inner wow fadeIn">
+						<h2>What I'm working on 👩‍💻</h2>
+						<p>I'm Head of Design at <a target="_blank" href="https://estimateone.com/">EstimateOne</a></p>
+						<p>I help with research & facilitation at <a target="_blank" href="http://www.codelikeagirl.org">Code Like a Girl</a></p>
+						<p>I'm working on a Content Strategy for <a target="_blank" href="http://www.itstrategic.com.au">ItStrategic</a></p>
+						<p>I'm teach classes at <a target="_blank" href="https://generalassemb.ly/instructors/amelia-schmidt/6152">General Assembly</a></p>
 					</div>
+						<a href="#four"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
 				</section>
 
 				<!-- Upcoming -->
-				<section class="useful upcoming">
-					<div class="inner">
-						<h2>Things I'm doing soon</h2>
-						<p>Intro to UX at General Assembly</p>
-						<p>Coding for Designers at Academy Xi</p>
-						<p>Mother's Day Creative Coding workshop for Code Like a Girl</p>
-						<p>Workshops with Microsoft in Sydney for Code Like a Girl</p>
+				<section id="four" class="useful upcoming">
+					<div class="inner wow fadeIn">
+						<h2>Things I'm doing soon 🗓️</h2>
+						<h3>May 2018</h3>
+						<p>Teaching <em>Intro to UX</em> at <a target="_blank" href="https://generalassemb.ly/education/intro-to-ux-design-247ed3ff-cbb9-48f7-93c2-9a7353e5ae75/melbourne">General Assembly</a></p>
+						<p>Teaching <em>Coding for Designers</em> at <a target="_blank" href="https://academyxi.com/">Academy Xi</a></p>
+						<p>Teaching <em>Mother's Day Creative Coding workshop</em> for <a target="_blank" href="https://codelikeagirl.org/melbourne/event-mothers-day-coding">Code Like a Girl</a></p>
+						<h3>June 2018</h3>
+						<p>Teaching <em>Intro to UX</em> at <a target="_blank" href="https://generalassemb.ly/education/intro-to-ux-design-247ed3ff-cbb9-48f7-93c2-9a7353e5ae75/melbourne">General Assembly</a></p>
+						<h3>July 2018</h3>
+						<p>Teaching <a target="_blank" href="https://www.microsoft.com/en-au/store/locations/nsw/sydney/westfield-sydney-on-pitt-street-mall/store-1108">Workshops with Microsoft in Sydney for Code Like a Girl</a></p>
 					</div>
+						<a href="#five"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
+				</section>
+
+				<!-- Recent -->
+				<section id="five" class="useful recent">
+					<div class="inner wow fadeIn">
+						<h2>Things I've done recently 🥂</h2>
+						<h3>February 2018</h3>
+						<p>MC at <a target="_blank" href="http://www.pausefest.com.au/">Pause Festival 2018</a></p>
+						<p>Panel speaker on <a target="_blank" href="http://www.pausefest.com.au/program-2018/schedule#/2018-02-07/1205-specialist-stage/3203-is-it-ever-ok-to-lie-in-business"><em>"Is it ever OK to lie in business?"</em></a> at <a target="_blank" href="http://www.pausefest.com.au/">Pause Festival 2018</a> with <a target="_blank" href="https://melbourne.girlsintech.org/">Girls in Tech</a></p>
+						<p>Teaching Intro to UX at General Assembly</p>
+						<p>Teaching Coding for Designers at <a href="https://academyxi.com/" target="_blank">Academy Xi</a></p>
+						<p>Teaching Coding for Agencies for <a href="https://www.carterdigital.com.au/" target="_blank">Carter Digital</a></p>
+						<h3>March 2018</h3>
+						<p>MC at <a target="_blank" href="https://2018.cssconf.com.au/">CSSConf Australia</a> and <a target="_blank" href="https://2018.jsconf.com.au/">JSConf Australia</a></p>
+					</div>
+						<a href="#six"><svg class="icon icon--arrow"><use xlink:href="#icon-arrow"></use></svg></a>
 				</section>
 
 				<!-- Contact -->
-				<section class="useful contact">
-					<div class="inner">
-						<h2>Get in touch</h2>
-						<p>My resume (at LinkedIn)</p>
-						<p>My sense of humour (at Twitter)</p>
-						<p>My code (at Github)</p>
-						<p>My email (at gmail)</p>
-						<p>My phone number (in Australia)</p>
+				<section id="six" class="useful contact">
+					<div class="inner wow fadeIn">
+						<h2>Get in touch 🤳</h2>
+						<p><a target="_blank" href="https://medium.com/@meeli">My writing (at Medium)</a></p>
+						<p><a target="_blank" href="https://www.linkedin.com/in/ameliaschmidt/">My resume (at LinkedIn)</a></p>
+						<p><a target="_blank" href="https://twitter.com/meelijane">My sense of humour (at Twitter)</a></p>
+						<p><a target="_blank" href="https://github.com/meelijane">My code (at Github)</a></p>
+						<p><a target="_blank" href="mailto:meeli.jane@gmail.com">My email (at Gmail)</a></p>
+						<p><a target="_blank" href="tel:+61403858811">My phone number (in Australia)</a></p>
 					</div>
 				</section>
 
@@ -186,5 +227,6 @@
 				const slideshow = new Slideshow(document.querySelector('.slideshow'));
 			}
 		</script>
+
 	</body>
 </html>

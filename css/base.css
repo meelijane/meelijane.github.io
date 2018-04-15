@@ -29,7 +29,7 @@ body {
 }
 
 a {
-	text-decoration: none;
+	text-decoration: underline;
 	color: var(--color-link);
 	outline: none;
 }
@@ -101,6 +101,7 @@ main {
 
 /* Header */
 .header {
+	opacity: 0.8;
 	position: fixed;
 	z-index: 1000;
 	top: 0;
@@ -144,16 +145,31 @@ main {
 }
 
 .inner {
-	max-width: 80vw;
+	max-width: 70vw;
 	padding: 10vh 0;
 }
 
-.useful .inner h2 {
+.icon--arrow {
+	fill: white;
+	z-index: 99999;
+	transform: rotate(270deg);
+	position: absolute;
+	bottom: 30px;
+	left: 50%;
+}
+
+/* Typography */
+.useful .inner h2,
+.useful .inner h3 {
 	text-align: center;
 }
 
 .useful .inner p {
 	text-align: center;
+}
+
+* + h3 {
+	margin-top: 2em;
 }
 
 p {
@@ -169,6 +185,32 @@ p {
 h2 {
 	font-size: 4em;
 }
+
+h3 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 40em) {
+	p {
+		font-size: 0.8em;
+	}
+
+	.intro {
+		font-size: 1em;
+	}
+
+	h2 {
+		font-size: 1.2em;
+	}
+
+	h3 {
+		font-size: 1.1em;
+	}
+
+}
+
 
 /* Slideshow */
 .slideshow {
