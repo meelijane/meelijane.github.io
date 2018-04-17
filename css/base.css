@@ -6,6 +6,11 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 	box-sizing: border-box;
 }
 
+/* Simple emoji support so no weird white boxes. */
+.no-emoji .emoji-accent {
+	display: none;
+}
+
 body {
 	font-family: 'Arbutus Slab', Helvetica, Arial, sans-serif;
 	min-height: 100vh;
