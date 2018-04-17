@@ -192,6 +192,13 @@ body {
   background-color: var(--color-bg-slide-2);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  --color-text: #fff;
+  --color-bg: #101010;
+  --color-link: #fff;
+  --color-link-hover: #fff473;
+  --color-nav: #fff;
+  --color-bg-slide-2: #0406e6;
+  --color-bg-slide-2-opacity: rgba(4, 6, 230, 0.8);
 }
 
 .embed-container {
@@ -211,17 +218,6 @@ body {
 }
 
 /* Color schemes */
-
-.demo-1 {
-  --color-text: #fff;
-  --color-bg: #101010;
-  --color-link: #fff;
-  --color-link-hover: #fff473;
-  --color-nav: #fff;
-  --color-bg-slide-2: #0406e6;
-  --color-bg-slide-2-opacity: rgba(4, 6, 230, 0.8);
-}
-
 a {
   text-decoration: underline;
   color: var(--color-link);
