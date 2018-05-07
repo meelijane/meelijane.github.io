@@ -349,10 +349,23 @@ section {
 }
 
 .inner {
-  max-width: 70vw;
+  max-width: 60vw;
   padding: 10vh 0;
   z-index: 2;
 }
+
+@media screen and (max-width: 40em) {
+  .inner {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (min-width: 90em) {
+  .inner {
+    max-width: 50vw;
+  }
+}
+
 
 .icon--arrow {
   fill: white;
@@ -386,6 +399,7 @@ p {
 
 .intro {
   font-size: 2em;
+  line-height: 3rem;
 }
 
 h2 {
