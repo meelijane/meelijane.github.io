@@ -4,7 +4,7 @@
  *
  * Licensed under the MIT license.
  * http://www.opensource.org/licenses/mit-license.php
- * 
+ *
  * Copyright 2017, Codrops
  * http://www.codrops.com
  */
@@ -40,7 +40,7 @@
             this.DOM = {};
             this.options = {
                 shapeTypes: ['circle', 'rect', 'polygon'],
-                shapeColors: ['#e07272', '#0805b5', '#49c6ff', '#8bc34a', '#1e1e21', '#e24e81', '#e0cd24'],
+                shapeColors: ['#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd'],
                 shapeFill: true,
                 shapeStrokeWidth: 1
             }
@@ -55,7 +55,7 @@
             this.DOM.el = document.createElementNS('http://www.w3.org/2000/svg', this.type);
             this.DOM.el.style.opacity = 0;
             this.configureShapeType();
-            
+
             if ( this.options.shapeFill ) {
                 this.DOM.el.setAttribute('fill', this.options.shapeColors[randomBetween(0,this.options.shapeColors.length-1,0)]);
             }
@@ -188,7 +188,7 @@
                                     anime.remove(config.shapesAnimationOpts.targets);
                                     anime(config.shapesAnimationOpts);
                                 }
-                            }(letter), config.lettersAnimationOpts && config.lettersAnimationOpts.delay ? config.lettersAnimationOpts.delay(letter.DOM.el,i) : 0);        
+                            }(letter), config.lettersAnimationOpts && config.lettersAnimationOpts.delay ? config.lettersAnimationOpts.delay(letter.DOM.el,i) : 0);
                         }
                     }
                     if ( config.lettersAnimationOpts ) {

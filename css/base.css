@@ -176,6 +176,31 @@ table {
   box-sizing: border-box;
 }
 
+.logo-box {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  margin-right: 30px;
+  max-width: 20vw;
+}
+
+.logo img {
+  width: 100%;
+}
+
+.logo-text {
+  flex-basis: 60%;
+}
+
+.logo-text p {
+  text-align: left!important;
+}
+
 /* Simple emoji support so no weird white boxes. */
 
 .no-emoji .emoji-accent {
@@ -195,10 +220,10 @@ body {
   --color-text: #fff;
   --color-bg: #101010;
   --color-link: #fff;
-  --color-link-hover: #fff473;
+  --color-link-hover: #fcc3fd;
   --color-nav: #fff;
-  --color-bg-slide-2: #0406e6;
-  --color-bg-slide-2-opacity: rgba(4, 6, 230, 0.8);
+  --color-bg-slide-2: #2e6740;
+  --color-bg-slide-2-opacity: rgba(20, 80, 43, 0.8);
 }
 
 .embed-container {
@@ -362,7 +387,7 @@ section {
 
 @media screen and (min-width: 90em) {
   .inner {
-    max-width: 50vw;
+    max-width: 60vw;
   }
 }
 
@@ -471,7 +496,7 @@ h3 {
 }
 
 .slide__bg--2 {
-  background-color: rgba(4, 6, 230, 0.8);
+  background-color: var(--color-bg-slide-2-opacity);
 }
 
 /* Word + SVG styles */
