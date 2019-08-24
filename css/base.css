@@ -182,6 +182,13 @@ table {
   width: 100%;
   align-items: center;
   justify-content: space-between;
+  margin: 20px 0;
+}
+
+@media screen and (max-width: 40em) {
+  .logo-box {
+    flex-direction: column;
+  }
 }
 
 .logo {
