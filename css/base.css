@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Arbutus+Slab');
+@import url('https://fonts.googleapis.com/css?family=Mr+Bedfort&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Signika&display=swap');
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block;
@@ -217,7 +218,7 @@ table {
 }
 
 body {
-  font-family: 'Arbutus Slab', Helvetica, Arial, sans-serif;
+  font-family: 'Signika', Helvetica, Arial, sans-serif;
   min-height: 100vh;
   overflow: scroll;
   color: #57585c;
@@ -229,10 +230,10 @@ body {
   --color-text: #fff;
   --color-bg: #101010;
   --color-link: #fff;
-  --color-link-hover: #fcc3fd;
+  --color-link-hover: #2d6740;
   --color-nav: #fff;
-  --color-bg-slide-2: #2e6740;
-  --color-bg-slide-2-opacity: rgba(20, 80, 43, 0.8);
+  --color-bg-slide-2: #16321f;
+  --color-bg-slide-2-opacity: rgba(22, 50, 31, 0.8);
 }
 
 .embed-container {
@@ -378,7 +379,7 @@ section {
   min-height: 100vh;
   align-items: center;
   justify-content: center;
-  text-align: center;
+  text-align: left;
   flex-direction: column;
 }
 
@@ -414,11 +415,11 @@ section {
 /* Typography */
 
 .useful .inner h2, .useful .inner h3 {
-  text-align: center;
+  text-align: left;
 }
 
 .useful .inner p {
-  text-align: center;
+  text-align: left;
 }
 
 *+h3 {
@@ -426,7 +427,7 @@ section {
 }
 
 p {
-  font-family: 'Arbutus Slab', serif line-height: 1.8em;
+  font-family: 'Signika', serif line-height: 1.8em;
   font-size: 1.2em;
   line-height: 1.8rem;
 }
@@ -438,6 +439,7 @@ p {
 
 h2 {
   font-size: 4em;
+  font-family: 'Mr Bedfort';
 }
 
 h3 {
@@ -538,7 +540,7 @@ h3 {
 }
 
 .word--2 {
-  font-family: 'Arbutus Slab', serif;
+  font-family: 'Mr Bedfort', serif;
 }
 
 .shapes {
