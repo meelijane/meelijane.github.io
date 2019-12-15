@@ -40,7 +40,7 @@
             this.DOM = {};
             this.options = {
                 shapeTypes: ['circle', 'rect', 'polygon'],
-                shapeColors: ['#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd', '#fcc3fd'],
+                shapeColors: ['#000', '#000', '#000', '#000', '#000', '#000', '#000'],
                 shapeFill: true,
                 shapeStrokeWidth: 1
             }
