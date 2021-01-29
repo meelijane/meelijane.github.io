@@ -1,3 +1,3 @@
-# This is my website.
+## Milly's personal website
 
-You can view it [here](http://millyschmidt.me).
+Hello, thank you for stopping by. Visit the website [here](https://www.millyschmidt.me).
