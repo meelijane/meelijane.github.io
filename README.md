@@ -1,3 +1,4 @@
 # meelijane.github.io
-my personal/professional site
-view it [live](millyschmidt.me)
+
+- my personal/professional site
+- view it [live](millyschmidt.me)
