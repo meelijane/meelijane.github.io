@@ -2,7 +2,7 @@ import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
 import Job from "../components/job"
-import UHlogo from "../../static/usabilityhub-logo.png"
+import UHlogo from "../../static/usabilityhub-logo.svg"
 import RMITlogo from "../../static/rmit-logo.png"
 import RATEITlogo from "../../static/rateit-logo.svg"
 import CIRCLEINlogo from "../../static/circlein-logo.png"
@@ -38,7 +38,7 @@ export default function Career() {
           dates="2018"
           logo={RMITlogo}
           website="https://online.rmit.edu.au/"
-          description="As a Senior UX Designer at RMIT Online I established multiple UX processes and feedback loops to help bring student and teacher feedback into the process of building new courses and refining the delivery model. I developed design ops templates and processes around end of first run depth interviews, usability testing for learning activity design, led the design guild, and also developed a component-driven approach and refactor for the HTML/CSS front-end of online courses in the edX LMS, including moving their existing code to Sass and Git. I advised on and campaigned successfully for a platform migration and helping to develop resources and tools to increase engagement through a series of measurable Lean experiments. I also increased their survey response rates through survey design improvements and have developed a centralised feedback repository where insights from interviews, surveys and emails are collected, collated and labelled in a transparent way so teams can draw on them in their sprint planning or instantly solve problems as hotfixes."
+          description="As a Senior UX Designer at RMIT Online I established multiple UX processes and feedback loops to help the course buidling and support teams learn from student and teacher feedback. I developed design ops templates and processes around end of first run depth interviews, usability testing for learning activity design, led the design guild, and also developed a component-driven approach and refactor for the HTML/CSS front-end of online courses in the edX LMS, including moving their existing code to Sass and Git. I advised on and campaigned successfully for a platform migration and helping to develop resources and tools to increase engagement through a series of measurable Lean experiments. I also increased their survey response rates through survey design improvements and have developed a centralised feedback repository where insights from interviews, surveys and emails are collected, collated and labelled in a transparent way so teams can draw on them in their sprint planning or instantly solve problems as hotfixes."
         />
 
         <Job
