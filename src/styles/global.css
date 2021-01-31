@@ -53,7 +53,7 @@
   a:hover {
     @apply no-underline;
   }
-  li {
+  .list-disc li {
     @apply ml-8;
   }
 }
